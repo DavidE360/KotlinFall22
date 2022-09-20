@@ -1,4 +1,4 @@
-  // David Emokpae
+// David Emokpae
 // 2.8 String Manipulator
 
 fun main(){
@@ -14,5 +14,5 @@ fun main(){
     println("You city is $cityLen letters long.")
     println("You can shout $upperCity all day long!")
     println("Or whisper $lowerCity at night...")
-    print("Your city begins with the letter $firstletter.")
+    println("Your city begins with the letter $firstletter.")
 }
