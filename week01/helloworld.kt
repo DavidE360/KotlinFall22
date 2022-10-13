@@ -1,6 +1,5 @@
 fun main() {
-    println("Happy Birthday!")
-    println("Jhansi")
-    println("You are 25!")
+  println("Hello World!")
+  println("I am learning Kotlin.")
+  println("It is awesome!")
 }
-
