@@ -8,5 +8,5 @@ val cookiesinBag = 40
     println("Enter number of cookies eaten: ")
     val cookies = Integer.valueof(readLine())
     val total Calories = cookies * 75
-    print("Your calorie intake was: $totalCalories calories.")
+    println("Your calorie intake was: $totalCalories calories.")
 }
