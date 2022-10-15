@@ -11,4 +11,7 @@ fun main(){
     if(month*day==year){
         print("Your date is is a magic number!")
     }
+    else{
+        print("Your date is not a magic number!")
+    }
 }
