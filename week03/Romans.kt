@@ -13,6 +13,6 @@ fun main(){
         8 -> "VIII"
         9 -> "IX"
         10 -> "X"
-        else -> "Error. The number is out of bounds"
+        else -> "Error!!! The number is out of bounds"
     }
 }
