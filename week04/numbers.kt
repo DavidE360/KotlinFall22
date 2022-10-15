@@ -1,13 +1,11 @@
-fun main() {
+fun main(){
 
-    var sums = 0
-
-    print("Enter a number: ")
-    val number = Integer.valueOf(readLine())
-
-    for (nums in 1< .. <number) {
-        sums = sums + nums
+    println("Please enter a positive non zero value >> ")
+    val userInput = Integer.valueOf(readLine())
+    var SumNumber = 0
+    for(i in 1 until  userInput+1){
+        totalNumber += i
     }
-
-    print (sums)
+    println("The sum of numbers from 1 to $userInput is >> ")
+    println(SumNumber)
 }
