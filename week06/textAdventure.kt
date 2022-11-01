@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    val game=Branch("You awake in a dark forest. Where do you want to go ?"){
+    val game=Branch("You are in a dusty castle room.Passages lead to the north and south."){
         WalkNorth() leadsTo TerminalBranch("You are in a dusty castle room.Passages lead to the north and south.")
         WalkSouth() leadsTo TerminalBranch("You are in the armory.There is a room off to the south.")
         WalkEast() leadsTo Branch("""IYou are in a torch-lit hallway.There are rooms to the east and west.""")
